@@ -1,6 +1,6 @@
-# mderic-data-prep-tools
+# mderic_data_prep_tools
 
-`mderic-data-prep-tools` is a lightweight Python library that provides reusable functions for my **data understanding** and **data preprocessing** tasks when working with **pandas DataFrames**.
+`mderic_data_prep_tools` is a lightweight Python library that provides reusable functions for my **data understanding** and **data preprocessing** tasks when working with **pandas DataFrames**.
 
 This library is designed for data analysts, data scientists, and ML engineers who frequently explore and clean tabular datasets in Python.
 
@@ -11,20 +11,20 @@ This library is designed for data analysts, data scientists, and ML engineers wh
 
 ### ✅ Option 1: Install via GitHub (e.g. for Google Colab)
 ```python
-!pip install git+https://github.com/muhammadderic/mderic-data-prep-tools.git
+!pip install git+https://github.com/muhammadderic/mderic_data_prep_tools.git
 ```
 
 ### ✅ Option 2: Local Development Install
 ```python
-git clone https://github.com/muhammadderic/mderic-data-prep-tools.git
-cd mderic-data-prep-tools
+git clone https://github.com/muhammadderic/mderic_data_prep_tools.git
+cd mderic_data_prep_tools
 pip install -e .
 ```
 
 ### 🚀 Usage
 ```python
 import pandas as pd
-from mderic-data-prep-tools import understanding
+from mderic_data_prep_tools import understanding
 
 df = pd.read_csv("your_data.csv")
 
